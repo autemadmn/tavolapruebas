@@ -25,10 +25,10 @@
 
     <section class="intro" aria-label="Restaurante Tavola Chiringo">
       <h1 class="brand-title">
-        <img class="brand-logo" src="assets/logotavola.png" alt="Tavola Chiringo">
+        <img class="brand-logo" src="assets/logotavola.webp" alt="Tavola Chiringo">
       </h1>
       <div class="intro-copy intro-refran" id="introCopy" aria-label="Il dolce far niente è tutto">
-        <img src="assets/refran.png" alt="Il dolce far niente è tutto">
+        <img src="assets/refran.webp" alt="Il dolce far niente è tutto">
       </div>
     </section>
 
@@ -47,6 +47,7 @@
           <span id="dishPrice">6,50 €</span>
           <p id="dishDescription">Café o té/infusión + zumo + tostada a elegir: aceite, mermelada, tomate, mantequilla o bollería.</p>
           <p class="dish-note is-hidden" id="dishNote"></p>
+          <p class="photo-disclaimer" id="photoDisclaimer">*Fotos orientativas</p>
           <p class="sr-only" id="dishStatus">Plato seleccionado: Desayuno tradicional.</p>
         </div>
       </article>
@@ -58,7 +59,7 @@
   <div class="image-lightbox" id="imageLightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Imagen ampliada">
     <button class="image-lightbox-close" id="imageLightboxClose" type="button" aria-label="Cerrar imagen ampliada">×</button>
     <div class="image-lightbox-panel">
-      <img class="image-lightbox-img" id="imageLightboxImg" src="" alt="">
+      <img class="image-lightbox-img" id="imageLightboxImg" src="" alt="" loading="lazy" decoding="async">
     </div>
   </div>
 

@@ -43,7 +43,7 @@ body::after {
 
 body::before {
   z-index: -2;
-  background: url("assets/fondotavola.png") center top / cover no-repeat;
+  background: url("assets/fondotavola.webp") center top / cover no-repeat;
 }
 
 body::after {
@@ -147,7 +147,7 @@ select {
 }
 
 .intro {
-  margin-bottom: 8px;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -202,6 +202,7 @@ h1 {
   display: grid;
   justify-content: center;
   line-height: 0;
+  margin-bottom: -8px;
 }
 
 .intro-refran img {
@@ -774,6 +775,34 @@ h1 {
   background: #c9563a;
 }
 
+.food-group-title-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.food-group-lineart {
+  display: block;
+  flex: 0 0 auto;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  opacity: 0.88;
+  filter: drop-shadow(0 5px 10px rgba(38, 31, 26, 0.08));
+}
+
+.food-group-lineart--cavas {
+  width: 90px;
+  height: 90px;
+  margin: -7.5px -15px -7.5px 0;
+}
+
+.food-group.is-open .food-group-lineart {
+  opacity: 0.96;
+  filter: brightness(0) invert(1) drop-shadow(0 5px 10px rgba(38, 31, 26, 0.1));
+}
+
 .food-group-label {
   display: grid;
   gap: 4px;
@@ -1052,7 +1081,7 @@ h1 {
   padding: 26px;
   background:
     linear-gradient(90deg, rgba(255, 250, 242, 0.88), rgba(255, 250, 242, 0.7)),
-    url("assets/fondoconcha.png") right center / cover no-repeat;
+    url("assets/fondoconcha.webp") right center / cover no-repeat;
 }
 
 .preview-copy p:first-child {
@@ -1083,6 +1112,14 @@ h1 {
   color: var(--muted);
   font-size: 1rem;
   line-height: 1.65;
+}
+
+.photo-disclaimer {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  opacity: 0.68;
 }
 
 .dish-note {
@@ -1135,7 +1172,7 @@ h1 {
   width: auto;
   max-width: min(92vw, 920px);
   max-height: min(76vh, 760px);
-  border-radius: 8px;
+  border-radius: 18px;
   object-fit: contain;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
   user-select: none;
@@ -1187,13 +1224,14 @@ h1 {
 .allergen-modal-panel {
   width: min(92vw, 560px);
   max-height: min(78vh, 720px);
+  margin: auto;
   overflow: auto;
   padding: clamp(22px, 5vw, 34px);
   border: 1px solid rgba(38, 31, 26, 0.12);
-  border-radius: 8px;
+  border-radius: 18px;
   background:
     linear-gradient(90deg, rgba(255, 250, 242, 0.94), rgba(255, 250, 242, 0.78)),
-    url("assets/fondoconcha.png") right center / cover no-repeat;
+    url("assets/fondoconcha.webp") right center / cover no-repeat;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.3);
   opacity: 0;
   transform: translateY(12px) scale(0.96);
@@ -1343,7 +1381,7 @@ h1 {
   }
 
   .intro {
-    margin-bottom: 6px;
+    margin-bottom: 0;
   }
 
   .brand-title {
@@ -1587,20 +1625,21 @@ h1 {
   }
 
   .allergen-modal {
-    align-items: end;
+    align-items: center;
+    justify-items: center;
     padding: 18px 12px calc(var(--bottom-nav) + 22px);
   }
 
   .image-lightbox-img {
     max-width: calc(100vw - 24px);
     max-height: calc(100vh - var(--bottom-nav) - 92px);
-    border-radius: 8px;
+    border-radius: 18px;
   }
 
   .allergen-modal-panel {
-    width: calc(100vw - 24px);
+    width: min(100%, 560px);
     max-height: calc(100vh - var(--bottom-nav) - 86px);
-    border-radius: 8px;
+    border-radius: 18px;
   }
 
   .preview-copy {

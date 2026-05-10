@@ -323,19 +323,19 @@ const beverageGroups = [
     category: "Refrescos",
     shortLabel: "Refrescos",
     items: [
-      { id: "agua", title: "Agua", price: "2,50 €", description: "Agua mineral.", image: "assets/bebidas.svg" },
-      { id: "agua-gas", title: "Agua gas", price: "3,00 €", description: "Agua con gas.", image: "assets/bebidas.svg" },
-      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/bebidas.svg" },
-      { id: "pepsi-zero", title: "Pepsi zero", price: "3,00 €", description: "Refresco Pepsi zero.", image: "assets/bebidas.svg" },
-      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/bebidas.svg" },
-      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/bebidas.svg" },
-      { id: "sevenup", title: "Sevenup", price: "3,00 €", description: "Refresco Sevenup.", image: "assets/bebidas.svg" },
-      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/bebidas.svg" },
-      { id: "aquarade-limon", title: "Aquarade limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/bebidas.svg" },
-      { id: "aquarade-naranja", title: "Aquarade naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/bebidas.svg" },
-      { id: "lipton-limon", title: "Lipton limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/bebidas.svg" },
-      { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/bebidas.svg" },
-      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/bebidas.svg" }
+      { id: "agua", title: "Agua", price: "2,50 €", description: "Agua mineral.", image: "assets/agua.webp" },
+      { id: "agua-gas", title: "Agua gas", price: "3,00 €", description: "Agua con gas.", image: "assets/agua-gas.webp" },
+      { id: "pepsi", title: "Pepsi", price: "3,00 €", description: "Refresco Pepsi.", image: "assets/pepsi.webp" },
+      { id: "pepsi-zero", title: "Pepsi zero", price: "3,00 €", description: "Refresco Pepsi zero.", image: "assets/pepsi-zero.webp" },
+      { id: "schweppes-naranja", title: "Schweppes Naranja", price: "3,00 €", description: "Refresco de naranja.", image: "assets/schweppes-naranja.webp" },
+      { id: "schweppes-limon", title: "Schweppes Limón", price: "3,00 €", description: "Refresco de limón.", image: "assets/schweppes-limon.webp" },
+      { id: "sevenup", title: "Sevenup", price: "3,00 €", description: "Refresco Sevenup.", image: "assets/sevenup.webp" },
+      { id: "tonica-schweppes", title: "Tónica Schweppes", price: "3,00 €", description: "Tónica Schweppes.", image: "assets/tonica-schweppes.webp" },
+      { id: "aquarade-limon", title: "Aquarade limón", price: "3,50 €", description: "Bebida isotónica de limón.", image: "assets/aquarade-limon.webp" },
+      { id: "aquarade-naranja", title: "Aquarade naranja", price: "3,50 €", description: "Bebida isotónica de naranja.", image: "assets/aquarade-naranja.webp" },
+      { id: "lipton-limon", title: "Lipton limón", price: "3,50 €", description: "Té frío de limón.", image: "assets/lipton-limon.webp" },
+      { id: "redbull", title: "Redbull", price: "3,50 €", description: "Bebida energética.", image: "assets/redbull.webp" },
+      { id: "zumos", title: "Zumos", price: "2,50 €", description: "Zumos variados.", image: "assets/zumos.webp" }
     ]
   },
   {
@@ -343,11 +343,11 @@ const beverageGroups = [
     category: "Cerveza",
     shortLabel: "Cerveza",
     items: [
-      { id: "aguila-dorada", title: "Águila dorada", price: "3,50 €", description: "Cerveza Águila dorada.", image: "assets/bebidas.svg" },
-      { id: "radler", title: "Radler", price: "3,50 €", description: "Cerveza Radler.", image: "assets/bebidas.svg" },
-      { id: "cerveza-00", title: "Cerveza 0,0", price: "3,50 €", description: "Cerveza sin alcohol.", image: "assets/bebidas.svg" },
-      { id: "cerveza-sin-gluten", title: "Cerveza sin gluten", price: "4,00 €", description: "Cerveza sin gluten.", image: "assets/bebidas.svg" },
-      { id: "amstel-oro-lata", title: "Amstel oro lata", price: "3,50 €", description: "Amstel Oro en lata.", image: "assets/bebidas.svg" }
+      { id: "aguila-dorada", title: "Águila dorada", price: "3,50 €", description: "Cerveza Águila dorada.", image: "assets/aguila-dorada.webp" },
+      { id: "radler", title: "Radler", price: "3,50 €", description: "Cerveza Radler.", image: "assets/radler.webp" },
+      { id: "cerveza-00", title: "Cerveza 0,0", price: "3,50 €", description: "Cerveza sin alcohol.", image: "assets/cerveza-00.webp" },
+      { id: "cerveza-sin-gluten", title: "Cerveza sin gluten", price: "4,00 €", description: "Cerveza sin gluten.", image: "assets/cerveza-sin-gluten.webp" },
+      { id: "amstel-oro-lata", title: "Amstel oro lata", price: "3,50 €", description: "Amstel Oro en lata.", image: "assets/amstel-oro-lata.webp" }
     ]
   },
   {
@@ -355,12 +355,12 @@ const beverageGroups = [
     category: "Vermouth y copas",
     shortLabel: "Vermouth",
     items: [
-      { id: "vermouth", title: "Vermouth", price: "5,00 €", description: "Rojo o blanco.", image: "assets/bebidas.svg" },
-      { id: "combinados", title: "Combinados", price: "9,00 €", description: "Masters, Larios 12, Barceló, Brugal, Jony Walker, Moscovscaya, Dyc, Deseen y similares.", image: "assets/bebidas.svg" },
-      { id: "premium-desde", title: "Copas premium", price: "Desde 11,00 €", description: "Roku, Bulldog, Martin Miller's, 1888, Zacapa, Black Label, Macallan 12 y similares.", image: "assets/bebidas.svg" },
-      { id: "chupitos", title: "Chupitos", price: "3,50 €", description: "Chupitos.", image: "assets/bebidas.svg" },
-      { id: "chupitos-premium", title: "Chupitos premium", price: "6,00 €", description: "Chupitos premium.", image: "assets/bebidas.svg" },
-      { id: "licores", title: "Licores", price: "6,00 €", description: "Baileys, licor de hierbas y similares.", image: "assets/bebidas.svg" }
+      { id: "vermouth", title: "Vermouth", price: "5,00 €", description: "Rojo o blanco.", image: "assets/vermouth.webp" },
+      { id: "combinados", title: "Combinados", price: "9,00 €", description: "Masters, Larios 12, Barceló, Brugal, Jony Walker, Moscovscaya, Dyc, Deseen y similares.", image: "assets/combinados.webp" },
+      { id: "premium-desde", title: "Copas premium", price: "Desde 11,00 €", description: "Roku, Bulldog, Martin Miller's, 1888, Zacapa, Black Label, Macallan 12 y similares.", image: "assets/copas-premium.webp" },
+      { id: "chupitos", title: "Chupitos", price: "3,50 €", description: "Chupitos.", image: "assets/chupitos.webp" },
+      { id: "chupitos-premium", title: "Chupitos premium", price: "6,00 €", description: "Chupitos premium.", image: "assets/chupitos-premium.webp" },
+      { id: "licores", title: "Licores", price: "6,00 €", description: "Baileys, licor de hierbas y similares.", image: "assets/licores.webp" }
     ]
   },
   {
@@ -368,9 +368,9 @@ const beverageGroups = [
     category: "Vinos blancos",
     shortLabel: "Blancos",
     items: [
-      { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas.svg" },
-      { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/bebidas.svg" },
-      { id: "paco-lola-albarino", title: "Paco & Lola Albariño", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/bebidas.svg" }
+      { id: "ceremonia-sauvignon-blanc", title: "Ceremonia Sauvignon Blanc", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-sauvignon-blanc.webp" },
+      { id: "ramon-bilbao-verdejo", title: "Ramón Bilbao Verdejo", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino blanco Ramón Bilbao Verdejo.", image: "assets/ramon-bilbao-verdejo.webp" },
+      { id: "paco-lola-albarino", title: "Paco & Lola Albariño", price: "Copa 4,80 € | Botella 22,00 €", description: "Albariño Paco & Lola.", image: "assets/paco-lola-albarino.webp" }
     ]
   },
   {
@@ -378,9 +378,9 @@ const beverageGroups = [
     category: "Vinos tintos",
     shortLabel: "Tintos",
     items: [
-      { id: "ceremonia-cabernet-sauvignon", title: "Ceremonia Cabernet Sauvignon", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas.svg" },
-      { id: "ramon-bilbao-crianza-rioja", title: "Ramón Bilbao Crianza Rioja", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Ramón Bilbao Crianza Rioja.", image: "assets/bebidas.svg" },
-      { id: "ceramic-monastrell-vicente-gandia", title: "Ceramic Monastrell Vicente Gandía", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Monastrell Vicente Gandía.", image: "assets/bebidas.svg" }
+      { id: "ceremonia-cabernet-sauvignon", title: "Ceremonia Cabernet Sauvignon", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-cabernet-sauvignon.webp" },
+      { id: "ramon-bilbao-crianza-rioja", title: "Ramón Bilbao Crianza Rioja", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Ramón Bilbao Crianza Rioja.", image: "assets/ramon-bilbao-crianza-rioja.webp" },
+      { id: "ceramic-monastrell-vicente-gandia", title: "Ceramic Monastrell Vicente Gandía", price: "Copa 4,80 € | Botella 22,00 €", description: "Vino tinto Monastrell Vicente Gandía.", image: "assets/ceramic-monastrell-vicente-gandia.webp" }
     ]
   },
   {
@@ -388,7 +388,7 @@ const beverageGroups = [
     category: "Vinos rosados",
     shortLabel: "Rosados",
     items: [
-      { id: "ceremonia-bobal-rose", title: "Ceremonia Bobal Rosé", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/bebidas.svg" }
+      { id: "ceremonia-bobal-rose", title: "Ceremonia Bobal Rosé", price: "Copa 4,00 € | Botella 20,00 €", description: "Bodega Vicente Gandía.", image: "assets/ceremonia-bobal-rose.webp" }
     ]
   },
   {
@@ -396,11 +396,11 @@ const beverageGroups = [
     category: "Cavas y espumosos",
     shortLabel: "Cavas",
     items: [
-      { id: "cava-patacona-brut", title: "Cava Patacona Brut", price: "Copa 5,00 € | Botella 30,00 €", description: "Cava Patacona Brut.", image: "assets/bebidas.svg" },
-      { id: "cava-lola", title: "Cava Lola", price: "Botella 40,00 €", description: "Bodega Paco & Lola.", image: "assets/bebidas.svg" },
-      { id: "moet-chandon", title: "Moet & Chandon", price: "Botella 110,00 €", description: "Champagne Moet & Chandon.", image: "assets/bebidas.svg" },
-      { id: "moet-chandon-rose", title: "Moet & Chandon Rosé", price: "Botella 130,00 €", description: "Champagne Moet & Chandon Rosé.", image: "assets/bebidas.svg" },
-      { id: "moet-chandon-ice", title: "Moet & Chandon Ice", price: "Botella 150,00 €", description: "Champagne Moet & Chandon Ice.", image: "assets/bebidas.svg" }
+      { id: "cava-patacona-brut", title: "Cava Patacona Brut", price: "Copa 5,00 € | Botella 30,00 €", description: "Cava Patacona Brut.", image: "assets/cavapataconabrut.webp" },
+      { id: "cava-lola", title: "Cava Lola", price: "Botella 40,00 €", description: "Bodega Paco & Lola.", image: "assets/cavalola.webp" },
+      { id: "moet-chandon", title: "Moet & Chandon", price: "Botella 110,00 €", description: "Champagne Moet & Chandon.", image: "assets/moet-chandon.webp" },
+      { id: "moet-chandon-rose", title: "Moet & Chandon Rosé", price: "Botella 130,00 €", description: "Champagne Moet & Chandon Rosé.", image: "assets/moet-chandon-rose.webp" },
+      { id: "moet-chandon-ice", title: "Moet & Chandon Ice", price: "Botella 150,00 €", description: "Champagne Moet & Chandon Ice.", image: "assets/moet-chandon-ice.webp" }
     ]
   }
 ];
@@ -417,7 +417,7 @@ const granizadosSmoothiesGroups = [
         price: "5,00 €",
         description: "Granizado refrescante de limón.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/granizado-limon.webp"
       },
       {
         id: "smoothie-mango",
@@ -425,7 +425,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de mango.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/smoothie-mango.webp"
       },
       {
         id: "smoothie-coco-pina",
@@ -433,7 +433,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de coco y piña.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/smoothie-coco-pina.webp"
       },
       {
         id: "smoothie-yogur-melon",
@@ -441,7 +441,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Smoothie de yogur y melón.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/smoothie-yogur-melon.webp"
       },
       {
         id: "frappe-cafe",
@@ -449,7 +449,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de café.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/frappe-cafe.webp"
       },
       {
         id: "frappe-chocolate",
@@ -457,7 +457,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de chocolate.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/frappe-chocolate.webp"
       },
       {
         id: "frappe-vainilla",
@@ -465,7 +465,7 @@ const granizadosSmoothiesGroups = [
         price: "7,00 €",
         description: "Frappé de vainilla.",
         note: "Suplemento 3 € con alcohol.",
-        image: "assets/granizados-smoothies.svg"
+        image: "assets/frappe-vainilla.webp"
       }
     ]
   }
@@ -482,42 +482,42 @@ const cocktailGroups = [
         title: "Mojito normal",
         price: "9,00 €",
         description: "Mojito clásico.",
-        image: "assets/cocteles.svg"
+        image: "assets/mojito-normal.webp"
       },
       {
         id: "mojito-sabores",
         title: "Mojito sabores",
         price: "9,00 €",
         description: "Mojito de sabores: melón, fresa o maracuyá.",
-        image: "assets/cocteles.svg"
+        image: "assets/mojito-sabores.webp"
       },
       {
         id: "daikiri-frozen",
         title: "Daikiri Frozen",
         price: "9,00 €",
         description: "Daikiri frozen.",
-        image: "assets/cocteles.svg"
+        image: "assets/daikiri-frozen.webp"
       },
       {
         id: "pina-colada",
         title: "Piña colada",
         price: "9,00 €",
         description: "Cóctel de piña colada.",
-        image: "assets/cocteles.svg"
+        image: "assets/pina-colada.webp"
       },
       {
         id: "caipirinha",
         title: "Caipirinha",
         price: "9,00 €",
         description: "Caipirinha clásica.",
-        image: "assets/cocteles.svg"
+        image: "assets/caipirinha.webp"
       },
       {
         id: "caipiroska",
         title: "Caipiroska",
         price: "9,00 €",
         description: "Caipiroska clásica.",
-        image: "assets/cocteles.svg"
+        image: "assets/caipiroska.webp"
       }
     ]
   }
@@ -534,42 +534,42 @@ const sangriaGroups = [
         title: "Tinto verano vaso",
         price: "5,00 €",
         description: "Tinto de verano servido en vaso.",
-        image: "assets/sangrias.svg"
+        image: "assets/tinto-verano-vaso.webp"
       },
       {
         id: "tinto-verano-jarra",
         title: "Tinto verano jarra",
         price: "20,00 €",
         description: "Tinto de verano servido en jarra.",
-        image: "assets/sangrias.svg"
+        image: "assets/tinto-verano-jarra.webp"
       },
       {
         id: "sangria-vino-blanco",
         title: "Sangría vino blanco",
         price: "30,00 €",
         description: "Sangría preparada con vino blanco.",
-        image: "assets/sangrias.svg"
+        image: "assets/sangria-vino-blanco.webp"
       },
       {
         id: "sangria-vino-tinto",
         title: "Sangría vino tinto",
         price: "30,00 €",
         description: "Sangría preparada con vino tinto.",
-        image: "assets/sangrias.svg"
+        image: "assets/sangria-vino-tinto.webp"
       },
       {
         id: "sangria-cava",
         title: "Sangría de cava",
         price: "35,00 €",
         description: "Sangría preparada con cava.",
-        image: "assets/sangrias.svg"
+        image: "assets/sangria-cava.webp"
       },
       {
         id: "agua-valencia",
         title: "Agua de Valencia",
         price: "35,00 €",
         description: "Cóctel valenciano fresco y cítrico.",
-        image: "assets/sangrias.svg"
+        image: "assets/agua-valencia.webp"
       }
     ]
   }
@@ -1559,6 +1559,22 @@ const languageNames = {
   de: "Deutsch"
 };
 
+const groupLinearts = {
+  refrescos: "assets/refrescoart.webp",
+  cerveza: "assets/cervezaart.webp",
+  "vermouth-copas": "assets/vermouthycopasart.webp",
+  "vinos-blancos": "assets/vinosblancosart.webp",
+  "vinos-tintos": "assets/vinostintosart.webp",
+  "vinos-rosados": "assets/vinosrosadosart.webp",
+  "cavas-espumosos": "assets/cavasyespumososart.webp",
+  desayuno: "assets/desayunoart.webp",
+  picar: "assets/aperitivoypicarart.webp",
+  tapas: "assets/tapasart.webp",
+  bocadillos: "assets/bocadillosart.webp",
+  pizzas: "assets/pizzaart.webp",
+  platos: "assets/platospreparadosart.webp"
+};
+
 const topTabs = document.querySelector("#topTabs");
 const bottomTabs = document.querySelector("#bottomTabs");
 const languageSwitcher = document.querySelector("#languageSwitcher");
@@ -1573,6 +1589,7 @@ const dishTitle = document.querySelector("#dishTitle");
 const dishPrice = document.querySelector("#dishPrice");
 const dishDescription = document.querySelector("#dishDescription");
 const dishNote = document.querySelector("#dishNote");
+const photoDisclaimer = document.querySelector("#photoDisclaimer");
 const dishStatus = document.querySelector("#dishStatus");
 const imageLightbox = document.querySelector("#imageLightbox");
 const imageLightboxImg = document.querySelector("#imageLightboxImg");
@@ -1582,7 +1599,7 @@ const allergenModalClose = document.querySelector("#allergenModalClose");
 const allergenTitle = document.querySelector("#allergenTitle");
 const allergenModalContent = document.querySelector("#allergenModalContent");
 
-let activeSectionId = "comidas";
+let activeSectionId = "bebidas";
 let activeHamacaPeriodId = "fin-semana";
 let activeHamacaTurnId = "mananas";
 let currentLanguage = getSavedLanguage();
@@ -1642,6 +1659,49 @@ function formatProductCount(count) {
   return `${count} ${label}`;
 }
 
+function prefersReducedMotion() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+function getScrollBehavior() {
+  return prefersReducedMotion() ? "auto" : "smooth";
+}
+
+function isMobileLayout() {
+  return window.matchMedia("(max-width: 820px)").matches;
+}
+
+function scrollElementNearTop(element, offset = 12) {
+  if (!element) return;
+
+  const top = Math.max(0, window.scrollY + element.getBoundingClientRect().top - offset);
+
+  window.scrollTo({
+    top,
+    behavior: getScrollBehavior()
+  });
+}
+
+function scheduleScrollToMainPanel() {
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      scrollElementNearTop(menuLayout, isMobileLayout() ? 10 : 24);
+    });
+  });
+}
+
+function scheduleScrollToGroupStart(groupBlock, panel) {
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const previewOffset = isMobileLayout() && !dishPreview.classList.contains("is-hidden")
+        ? dishPreview.getBoundingClientRect().height + 14
+        : 18;
+
+      scrollElementNearTop(groupBlock, previewOffset);
+    });
+  });
+}
+
 function getActiveSection() {
   return menuSections.find((section) => section.id === activeSectionId) || menuSections[0];
 }
@@ -1699,8 +1759,10 @@ function createAllergenButton(item, itemText) {
   button.className = "allergen-trigger";
   button.type = "button";
   button.setAttribute("aria-label", `Ver alérgenos de ${itemText.title}`);
-  icon.src = "assets/precaucion1.png";
+  icon.src = "assets/precaucion1.webp";
   icon.alt = "";
+  icon.loading = "lazy";
+  icon.decoding = "async";
   icon.setAttribute("aria-hidden", "true");
   label.textContent = "Ver alérgenos";
   button.append(icon, label);
@@ -2010,8 +2072,10 @@ function createHamacaHeroCard(activePeriod, activeTariff) {
   periodPill.className = "hamaca-period-pill";
   drinksBlock.className = "hamaca-drinks-block";
 
-  image.src = "assets/hamaca1.png";
+  image.src = "assets/hamaca1.webp";
   image.alt = "Hamacas frente al mar en Tavola Chiringo";
+  image.loading = "lazy";
+  image.decoding = "async";
   turn.textContent = hamacaCopy.tariffs[activeTariff.id] || activeTariff.name;
   schedule.textContent = activeTariff.schedule;
   priceLabel.textContent = ui.priceLabel;
@@ -2049,12 +2113,14 @@ function createHamacasSection() {
 function createFoodGroup(group, isExpanded) {
   const groupBlock = document.createElement("section");
   const toggle = document.createElement("button");
+  const titleWrap = document.createElement("span");
   const label = document.createElement("span");
   const title = document.createElement("strong");
   const count = document.createElement("small");
   const indicator = document.createElement("span");
   const panel = document.createElement("div");
   const groupText = getGroupText(group);
+  const lineartSrc = groupLinearts[group.id];
 
   groupBlock.className = "food-group";
   groupBlock.dataset.group = group.id;
@@ -2063,10 +2129,28 @@ function createFoodGroup(group, isExpanded) {
   toggle.setAttribute("aria-controls", `food-group-${group.id}`);
   toggle.setAttribute("aria-expanded", String(isExpanded));
 
+  titleWrap.className = "food-group-title-wrap";
   label.className = "food-group-label";
   title.textContent = groupText.category;
   count.textContent = formatProductCount(group.items.length);
   label.append(title, count);
+
+  if (lineartSrc) {
+    const lineart = document.createElement("img");
+
+    lineart.className = "food-group-lineart";
+    if (group.id === "cavas-espumosos") {
+      lineart.classList.add("food-group-lineart--cavas");
+    }
+    lineart.src = lineartSrc;
+    lineart.alt = "";
+    lineart.loading = "eager";
+    lineart.decoding = "async";
+    lineart.setAttribute("aria-hidden", "true");
+    titleWrap.append(lineart);
+  }
+
+  titleWrap.append(label);
 
   indicator.className = "food-group-indicator";
   indicator.setAttribute("aria-hidden", "true");
@@ -2084,7 +2168,7 @@ function createFoodGroup(group, isExpanded) {
     panel.append(createDishButton(item, groupText.category));
   });
 
-  toggle.append(label, indicator);
+  toggle.append(titleWrap, indicator);
   toggle.addEventListener("click", () => toggleFoodGroup(groupBlock, panel, toggle, indicator, group));
   groupBlock.append(toggle, panel);
 
@@ -2118,6 +2202,7 @@ function toggleFoodGroup(groupBlock, panel, toggle, indicator, group) {
     dishPreview.classList.remove("is-hidden");
     menuLayout.classList.remove("is-empty-section");
     showDish(group.items[0], groupText.category);
+    scheduleScrollToGroupStart(groupBlock, panel);
   }
 }
 
@@ -2220,6 +2305,7 @@ function setActiveSection(sectionId) {
   activeSectionId = sectionId;
   renderActiveSection();
   updateActiveTabs();
+  scheduleScrollToMainPanel();
 }
 
 function updateStaticText() {
@@ -2273,6 +2359,8 @@ function preloadImage(src) {
   const preload = new Promise((resolve, reject) => {
     const image = new Image();
 
+    image.decoding = "async";
+
     image.onload = () => {
       if (typeof image.decode === "function") {
         image.decode().catch(() => undefined).then(() => resolve(src));
@@ -2318,12 +2406,15 @@ async function showDish(selectedDish, sectionName) {
 
   if (updateToken !== previewUpdateToken) return;
 
+  dishImage.loading = "lazy";
+  dishImage.decoding = "async";
   dishImage.src = selectedDish.image;
   dishImage.alt = itemText.title;
   dishCategory.textContent = sectionName;
   dishTitle.textContent = itemText.title;
   dishPrice.textContent = getItemPrice(selectedDish, itemText);
   dishDescription.textContent = itemText.description;
+  photoDisclaimer.classList.toggle("is-hidden", !selectedDish.image);
   dishStatus.textContent = `${ui.dishSelected}: ${itemText.title}.`;
 
   if (itemText.note) {
@@ -2563,6 +2654,7 @@ function createImageDragPreview(rect) {
   preview.className = "image-drag-preview";
   preview.src = dishImage.currentSrc || dishImage.src;
   preview.alt = dishImage.alt;
+  preview.decoding = "async";
   preview.style.width = `${rect.width}px`;
   preview.style.height = `${rect.height}px`;
   preview.style.left = `${rect.left}px`;
